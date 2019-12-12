@@ -1,0 +1,8 @@
+name: "EMSE Undergraduate Programming for Analytics"
+output_dir: "."
+navbar:
+  type: inverse
+output:
+  html_document:
+    theme: simplex
+    css: style.css

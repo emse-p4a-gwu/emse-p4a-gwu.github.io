@@ -1,0 +1,15 @@
+---
+title: "EMSE Undergraduate Programming for Analytics"
+output:
+  html_document:
+    toc: false
+---
+
+### Description: 
+
+This course provides a foundation in programming for data analytics using the [R programming language](https://www.r-project.org/).
+
+### Select Section: 
+
+- [Fall 2019](https://emse6574-gwu.github.io/2019-Fall)
+- [Fall 2020](https://emse-p4a-gwu.github.io/2020-Fall)
