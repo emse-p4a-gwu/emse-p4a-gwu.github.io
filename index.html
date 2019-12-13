@@ -12,11 +12,11 @@
 
 
 
-<title>EMSE Undergraduate Programming for Analytics</title>
+<title>Programming for Analytics</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -69,7 +69,6 @@ h6 {
 }
 </style>
 
-<link rel="stylesheet" href="style.css" type="text/css" />
 
 
 
@@ -101,93 +100,6 @@ summary {
 </style>
 
 
-<style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 41px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
-.section h2 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
-.section h3 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
-.section h4 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
-.section h5 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
-.section h6 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script>
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark it active
-  menuAnchor.parent().addClass('active');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
-});
-</script>
 
 <!-- tabsets -->
 
@@ -260,48 +172,36 @@ $(document).ready(function () {
 
 
 
-<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html"></a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
-
 <div class="fluid-row" id="header">
 
 
 
-<h1 class="title toc-ignore">EMSE Undergraduate Programming for Analytics</h1>
+<h1 class="title toc-ignore">Programming for Analytics</h1>
 
 </div>
 
 
 <div id="description" class="section level3">
 <h3>Description:</h3>
-<p>This course provides a foundation in programming for data analytics using the <a href="https://www.r-project.org/">R programming language</a>.</p>
+<p>This is the course website for the <a href="https://www.emse.seas.gwu.edu/">EMSE</a> undergraduate course “Programming for Analytics” at the <a href="https://www.gwu.edu/">George Washington University</a>. This is the first part of a two-course sequence designed to provide a foundation in programming for data analytics using the <a href="https://www.r-project.org/">R programming language</a>:</p>
+<ul>
+<li>Course 1 (Fall Semester): Programming for Analytics</li>
+<li>Course 2 (Spring Semester): <a href="https://emse-eda-gwu.github.io">Exploratory Data Analysis</a></li>
+</ul>
 </div>
-<div id="select-section" class="section level3">
-<h3>Select Section:</h3>
+<div id="course-section" class="section level3">
+<h3>Course Section:</h3>
+<p>Select from below to view the <a href="https://emse-p4a-gwu.github.io/2020-Fall">current section</a> or review a previous section:</p>
 <ul>
 <li><a href="https://emse6574-gwu.github.io/2019-Fall">Fall 2019</a></li>
 <li><a href="https://emse-p4a-gwu.github.io/2020-Fall">Fall 2020</a></li>
 </ul>
 </div>
 
+<!-- Add function to open links to external links in new tab, from: -->
+<!-- https://yihui.name/en/2018/09/target-blank/ -->
+
+<script src="js/external-link.js"></script>
 
 
 
