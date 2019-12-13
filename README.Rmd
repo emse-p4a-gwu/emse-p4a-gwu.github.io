@@ -1,6 +1,5 @@
 ---
 title: "Programming for Analytics"
-output: html_document
 ---
 
 ```{r child = '_description.Rmd'}
