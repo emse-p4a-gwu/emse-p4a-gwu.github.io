@@ -1,7 +1,17 @@
 ---
-title: "Programming for Analytics"
 output: html_document
 ---
+
+```{r, echo=FALSE, message=FALSE}
+library(fontawesome)
+```
+
+<table>
+    <tr>
+        <td><br><img src="https://emse-p4a-gwu.github.io/images/p4a_hex_sticker.png" width="120"></td>
+        <td><h1>&ensp;Programming for Analytics</h1></td>
+    </tr>
+</table>
 
 ```{r child = '_description.Rmd'}
 ```
