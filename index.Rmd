@@ -1,4 +1,5 @@
 ---
+title: 'Programming for Analytics'
 output: html_document
 ---
 
@@ -6,12 +7,26 @@ output: html_document
 library(fontawesome)
 ```
 
-<table>
-    <tr>
-        <td><br><img src="https://emse-p4a-gwu.github.io/images/p4a_hex_sticker.png" width="120"></td>
-        <td><h1>&ensp;Programming for Analytics</h1></td>
-    </tr>
-</table>
+<style>
+body {
+    color: #ffffff;
+    background-color: #1A1917;
+}
+a {
+    color: #1E90FF;
+    text-decoration: none;
+}
+a:hover {
+    color: #1E90FF;
+}
+</style>
 
+<div class = "col-md-3">
+<br>
+<img src="https://emse-p4a-gwu.github.io/images/p4a_hex_sticker.png" width="200">
+</div>
+
+<div class = "col-md-7">
 ```{r child = '_description.Rmd'}
 ```
+</div>

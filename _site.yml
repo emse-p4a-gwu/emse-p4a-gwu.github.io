@@ -8,4 +8,4 @@ output:
       in_header:
       - _includes/header.html
       after_body: _includes/footer.html
-    theme: cosmo
+    theme: flatly
