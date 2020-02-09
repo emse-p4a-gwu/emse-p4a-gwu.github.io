@@ -23,7 +23,7 @@ a:hover {
 
 <div class = "col-md-3">
 <br>
-<img src="images/p4a_hex_sticker.png" width="200">
+<img src="https://emse-p4a-gwu.github.io/images/p4a_hex_sticker.png" width="200">
 </div>
 
 <div class = "col-md-7">
