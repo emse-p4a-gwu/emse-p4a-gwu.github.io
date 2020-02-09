@@ -3,30 +3,14 @@ title: 'Programming for Analytics'
 output: html_document
 ---
 
-```{r, echo=FALSE, message=FALSE}
-library(fontawesome)
-```
-
-<style>
-body {
-    color: #ffffff;
-    background-color: #1A1917;
-}
-a {
-    color: #1E90FF;
-    text-decoration: none;
-}
-a:hover {
-    color: #1E90FF;
-}
-</style>
-
+<div class = "row">
 <div class = "col-md-3">
 <br>
-<img src="https://emse-p4a-gwu.github.io/images/p4a_hex_sticker.png" width="200">
+<img src="images/p4a_hex_sticker.png" width="200">
 </div>
 
 <div class = "col-md-7">
-```{r child = '_description.Rmd'}
+```{r child = '_content.Rmd'}
 ```
+</div>
 </div>

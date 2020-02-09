@@ -2,9 +2,5 @@
 title: "Programming for Analytics"
 ---
 
-```{r, echo=FALSE, message=FALSE}
-library(fontawesome)
-```
-
-```{r child = '_description.Rmd'}
+```{r child = '_content.Rmd'}
 ```
