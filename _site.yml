@@ -1,4 +1,4 @@
-name: "EMSE Undergraduate Programming for Analytics"
+name: "EMSE 4574: Programming for Analytics"
 output_dir: "."
 exclude:
 - README
