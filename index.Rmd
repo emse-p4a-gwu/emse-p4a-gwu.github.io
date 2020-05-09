@@ -1,6 +1,9 @@
 ---
 title: "EMSE 4574: Programming for Analytics"
-output: html_document
+output:
+  html_document:
+    number_sections: false
+    toc: no
 ---
 
 <div class = "row">
@@ -10,7 +13,14 @@ output: html_document
 </div>
 
 <div class = "col-md-7">
-```{r child = '_content.Rmd'}
-```
+<br>
+<br>
+This is the course website for the [EMSE](https://www.emse.seas.gwu.edu/) undergraduate course "Programming for Analytics" at the [George Washington University](https://www.gwu.edu/). This is the first part of a two-course sequence designed to provide a foundation in programming for data analytics using the [R programming language](https://www.r-project.org/):
+
+- Course 1 (Fall): [Programming for Analytics](http://p4a.seas.gwu.edu/)
+- Course 2 (Spring): [Exploratory Data Analysis](http://eda.seas.gwu.edu/)
+
+Choose from the menu to view the course site for a particular semester.
 </div>
 </div>
+

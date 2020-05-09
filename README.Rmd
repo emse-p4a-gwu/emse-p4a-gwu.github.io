@@ -1,6 +1,0 @@
----
-title: "EMSE 4574: Programming for Analytics"
----
-
-```{r child = '_content.Rmd'}
-```
