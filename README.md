@@ -1,27 +1,25 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-## EMSE 4574: Programming for Analytics <img src="images/p4a_hex_sticker.png" align="right" width="200"/>
+## EMSE 4574: Intro to Programming for Analytics <a href='https://github.com/emse-eda-gwu/'><img src='images/p4a_hex_sticker.png' align="right" height="139"/></a>
 
 <!-- badges: start -->
 
-[![License: CC
-BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![License:
-MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+CC-BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA-lightgrey)](https://creativecommons.org/licenses/by-sa/4.0/)
 <!-- badges: end -->
 
 ### Description
 
 This is the course website for the
-[EMSE](https://www.emse.seas.gwu.edu/) undergraduate course “Programming
-for Analytics” at the [George Washington
+[EMSE](https://www.emse.seas.gwu.edu/) undergraduate course “Intro to
+Programming for Analytics” at the [George Washington
 University](https://www.gwu.edu/). This is the first part of a
 two-course sequence designed to provide a foundation in programming for
 data analytics using the [R programming
 language](https://www.r-project.org/):
 
-  - Course 1 (Fall): [Programming for
+  - Course 1 (Fall): [Intro to Programming for
     Analytics](http://p4a.seas.gwu.edu/)
   - Course 2 (Spring): [Exploratory Data
     Analysis](http://eda.seas.gwu.edu/)

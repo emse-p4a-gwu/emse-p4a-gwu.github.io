@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -71,6 +70,15 @@ a:hover {
 
 </style>
 
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
   pre:not([class]) {
@@ -115,6 +123,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 
 
@@ -279,6 +288,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -314,11 +324,18 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Home</a>
+      <a class="navbar-brand" href="index.html"></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="dropdown">
+        <li>
+  <a href="index.html">
+    <span class="fas fa-home"></span>
+     
+    
+  </a>
+</li>
+<li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     Select Section
      
@@ -333,51 +350,42 @@ $(document).ready(function () {
     </li>
   </ul>
 </li>
-<li class="dropdown">
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    About
+    <span class="fas fa-bars"></span>
+     
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
       <a href="about.html">
-        <span class="fa fa-info-circle"></span>
+        <span class="fas fa-info-circle"></span>
          
         About
       </a>
     </li>
     <li>
       <a href="LICENSE.html">
-        <span class="fa fa-gavel"></span>
+        <span class="fas fa-gavel"></span>
          
         License
       </a>
     </li>
-  </ul>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-bars"></span>
-     
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
     <li>
       <a href="mailto:jph@gwu.edu">
-        <span class="fa fa-envelope"></span>
+        <span class="fas fa-envelope"></span>
          
         Contact
       </a>
     </li>
     <li>
       <a href="https://github.com/emse-p4a-gwu/">
-        <span class="fa fa-github"></span>
+        <span class="fab fa-github"></span>
          
-        GitHub
+        Source files
       </a>
     </li>
   </ul>
@@ -397,7 +405,7 @@ $(document).ready(function () {
 
 
 <p>This course was inspired by many other courses / resources that cover similar material. In addition to my own developed material, I have also modified material from other courses and workshops - a full list of sources can be found in the <a href="LICENSE.html">LICENSE</a> page.</p>
-<p>This course was originally created by Dr. John Paul Helveston at the George Washington University for the Fall 2019 semester of EMSE 4574.</p>
+<p>This course was originally created by Dr. John Paul Helveston at the George Washington University for the Fall 2019 semester of P4A.</p>
 
 
 
@@ -408,7 +416,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

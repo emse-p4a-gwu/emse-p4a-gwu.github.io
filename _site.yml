@@ -1,34 +1,36 @@
-name: "EMSE 4574: Programming for Analytics"
+name: "Intro to Programming for Analytics"
 output_dir: "."
 exclude:
 - README
 new_session: true
 navbar:
-  title: "Home"
+  title: ""
   left:
+    - text: ""
+      icon: fas fa-home
+      href: index.html
     - text: "Select Section"
       menu:
         - text: "Fall 2019"
           href: http://p4a.seas.gwu.edu/2019-Fall/
         - text: "Fall 2020"
           href: http://p4a.seas.gwu.edu/2020-Fall/
-    - text: "About"
-      menu:
-        - text: About
-          icon: fa-info-circle
-          href: about.html
-        - text: License
-          icon: fa-gavel
-          href: LICENSE.html
+
   right:
-  - icon: fa-bars
-    menu:
-    - text: Contact
-      icon: fa-envelope
-      href: mailto:jph@gwu.edu
-    - text: GitHub
-      icon: fa-github
-      href: https://github.com/emse-p4a-gwu/
+    - icon: fas fa-bars
+      menu:
+      - text: About
+        icon: fas fa-info-circle
+        href: about.html
+      - text: License
+        icon: fas fa-gavel
+        href: LICENSE.html
+      - text: Contact
+        icon: fas fa-envelope
+        href: mailto:jph@gwu.edu
+      - text: Source files
+        icon: fab fa-github
+        href: https://github.com/emse-p4a-gwu/
 
 output:
   html_document:
