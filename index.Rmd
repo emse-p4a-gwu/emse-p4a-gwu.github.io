@@ -1,10 +1,31 @@
 ---
-title: "EMSE 4571: Intro to Programming for Analytics"
+title: 'EMSE 4571: Intro to Programming for Analytics'
 output:
   html_document:
     number_sections: false
     toc: no
 ---
+
+```{r setup, message=FALSE, warning=FALSE, include=FALSE}
+library(metathis)
+
+meta() %>%
+  meta_description(
+    'Course website for the course "EMSE 4571: Intro to Programming for Analytics" at GWU'
+  ) %>%
+  meta_name("github-repo" = "emse-p4a-gwu/emse-p4a-gwu.github.io") %>%
+  meta_viewport() %>%
+  meta_social(
+    title = "p4a.seas.gwu.edu",
+    url = "https://p4a.seas.gwu.edu/",
+    image = "https://p4a.seas.gwu.edu/images/p4a_hex_sticker.png",
+    image_alt = "Hex sticker for class logo",
+    og_type = "website",
+    og_author = c("John Paul Helveston"),
+    twitter_card_type = "summary",
+    twitter_creator = "@JohnHelveston"
+  )
+```
 
 <div class = "row">
 <div class = "col-md-3">
@@ -18,9 +39,8 @@ output:
 ```{r child = '_description.Rmd'}
 ```
 
-Choose from the menu to view the course site for a particular semester.
+Choose from the menu to view the course site for a particular semester or to view the showcase of prior student projects.
 
 <a href="LICENSE.html">LICENSE: CC-BY-SA <i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i><i class="fab fa-creative-commons-sa"></i></a>
 </div>
 </div>
-

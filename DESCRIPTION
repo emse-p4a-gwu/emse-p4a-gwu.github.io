@@ -1,8 +1,6 @@
 Type: Website
 Package: emsep4a
 Title: Intro to Programming for Analytics
-Date: 2020-12-12
-Version: 0.1.0
 Authors@R: c(
     person(given   = "John",
            family  = "Helveston",

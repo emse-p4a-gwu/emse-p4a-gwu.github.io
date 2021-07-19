@@ -11,17 +11,16 @@
 
 ### Description
 
-This is the course website for the
-[EMSE](https://www.emse.seas.gwu.edu/) undergraduate course “Intro to
-Programming for Analytics” at the [George Washington
+This is the course website for “[EMSE](https://www.emse.seas.gwu.edu/)
+4571: Intro to Programming for Analytics” at the [George Washington
 University](https://www.gwu.edu/). This is the first part of a
 two-course sequence designed to provide a foundation in programming for
 data analytics using the [R programming
 language](https://www.r-project.org/):
 
--   Course 1 (Fall): [Intro to Programming for
+-   Course 1: [EMSE 4571: Intro to Programming for
     Analytics](http://p4a.seas.gwu.edu/)
--   Course 2 (Spring): [Exploratory Data
+-   Course 2: [EMSE 4572: Exploratory Data
     Analysis](http://eda.seas.gwu.edu/)
 
 ### Select Section
