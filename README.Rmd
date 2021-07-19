@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-## EMSE 4574: Intro to Programming for Analytics <a href='https://github.com/emse-eda-gwu/'><img src='images/p4a_hex_sticker.png' align="right" height="139"/></a>
+## EMSE 4571: Intro to Programming for Analytics <a href='https://github.com/emse-eda-gwu/'><img src='images/p4a_hex_sticker.png' align="right" height="139"/></a>
 
 <!-- badges: start -->
 [![License: CC-BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA-lightgrey)](https://creativecommons.org/licenses/by-sa/4.0/)

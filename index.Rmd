@@ -1,5 +1,5 @@
 ---
-title: "EMSE 4574: Intro to Programming for Analytics"
+title: "EMSE 4571: Intro to Programming for Analytics"
 output:
   html_document:
     number_sections: false
