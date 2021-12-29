@@ -5,8 +5,8 @@
 
 <!-- badges: start -->
 
-[![License: CC-BY-SA
-4.0](https://img.shields.io/badge/License-CC%20BY--SA-lightgrey)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![License:
+CC-BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA-lightgrey)](https://creativecommons.org/licenses/by-sa/4.0/)
 <!-- badges: end -->
 
 ### Description
@@ -18,17 +18,17 @@ two-course sequence designed to provide a foundation in programming for
 data analytics using the [R programming
 language](https://www.r-project.org/):
 
--   Course 1: [EMSE 4571: Intro to Programming for
+  - Course 1: [EMSE 4571: Intro to Programming for
     Analytics](http://p4a.seas.gwu.edu/)
--   Course 2: [EMSE 4572: Exploratory Data
+  - Course 2: [EMSE 4572: Exploratory Data
     Analysis](http://eda.seas.gwu.edu/)
 
 ### Select Section
 
 Select to view the course site for a particular semester:
 
--   [Fall 2019](http://p4a.seas.gwu.edu/2019-Fall/)
--   [Fall 2020](http://p4a.seas.gwu.edu/2020-Fall/)
+  - [Fall 2019](http://p4a.seas.gwu.edu/2019-Fall/)
+  - [Fall 2020](http://p4a.seas.gwu.edu/2020-Fall/)
 
 ### Acknowledgments
 
