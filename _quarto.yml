@@ -29,8 +29,9 @@ website:
     title: ""
     left:
       - text: ""
-        icon: fas fa-home
+        icon: house-door-fill
         href: index.html
+      - text: "Select Section"
         menu:
           - text: "Fall 2019"
             href: http://p4a.seas.gwu.edu/2019-Fall/
