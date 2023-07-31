@@ -24,7 +24,7 @@ knitr::opts_chunk$set(
 
 ### Description
 
-```{r child = '_description.Rmd'}
+```{r child = '_description.qmd'}
 ```
 
 ### Acknowledgments

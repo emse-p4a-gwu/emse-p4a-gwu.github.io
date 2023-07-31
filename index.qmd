@@ -1,0 +1,24 @@
+---
+title: 'EMSE 4571: Intro to Programming for Analytics'
+---
+
+<br>
+
+::: {.grid}
+
+::: {.g-col-3}
+
+<img src="images/logo.png" width="200">
+
+:::
+
+::: {.g-col-9}
+
+```{r child = '_description.qmd'}
+```
+
+Choose from the menu to view the course site for a particular semester or to view the showcase of prior student projects.
+
+:::
+
+:::
