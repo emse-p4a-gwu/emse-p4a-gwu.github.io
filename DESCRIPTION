@@ -1,0 +1,24 @@
+Type: Website
+Package: emsep4a
+Title: Intro to Programming for Analytics
+Authors@R: c(
+    person(given   = "John",
+           family  = "Helveston",
+           role    = c("aut", "cre", "cph"),
+           email   = "john.helveston@gmail.com",
+           comment = c(ORCID = "0000-0002-2657-9191")))
+    )
+Depends: R (>= 3.6.0)
+License: CC-BY-SA
+Encoding: UTF-8
+Imports:
+    rmarkdown,
+    knitr,
+    yaml,
+    tidyverse,
+    devtools,
+    roxygen2,
+    here
+Remotes:
+    rstudio/fontawesome,
+    rstudio/rmarkdown
