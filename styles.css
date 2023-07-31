@@ -1,5 +1,3 @@
-<style type="text/css">
-
 :root {
   --color-blue: #0190DB;
   --color-gray: #1A1917;
@@ -44,5 +42,3 @@ a:hover {
 .dropdown-menu>li>a {
     color: #ffffff;
 }
-
-</style>
