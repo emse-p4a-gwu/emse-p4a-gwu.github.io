@@ -30,15 +30,15 @@ website:
       - text: ""
         icon: fas fa-home
         href: index.html
-      menu:
-        - text: "Fall 2019"
-          href: http://p4a.seas.gwu.edu/2019-Fall/
-        - text: "Fall 2020"
-          href: http://p4a.seas.gwu.edu/2020-Fall/
-        - text: "Spring 2022"
-          href: http://p4a.seas.gwu.edu/2022-Spring/
-        - text: "Spring 2023"
-          href: http://p4a.seas.gwu.edu/2023-Spring/
+        menu:
+          - text: "Fall 2019"
+            href: http://p4a.seas.gwu.edu/2019-Fall/
+          - text: "Fall 2020"
+            href: http://p4a.seas.gwu.edu/2020-Fall/
+          - text: "Spring 2022"
+            href: http://p4a.seas.gwu.edu/2022-Spring/
+          - text: "Spring 2023"
+            href: http://p4a.seas.gwu.edu/2023-Spring/
     right:
     - icon: list
       menu:
