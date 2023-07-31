@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-## EMSE 4571: Intro to Programming for Analytics <a href='https://github.com/emse-eda-gwu/'><img src='images/p4a_hex_sticker.png' align="right" height="139"/></a>
+## EMSE 4571: Intro to Programming for Analytics <a href='https://github.com/emse-eda-gwu/'><img src='images/logo.png' align="right" height="139"/></a>
 
 <!-- badges: start -->
 
