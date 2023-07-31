@@ -8,6 +8,7 @@ project:
     - "*.qmd"
   resources:
     - "showcase/"
+    - "CNAME"
 
 website:
   title: "Intro to Programming for Analytics"
