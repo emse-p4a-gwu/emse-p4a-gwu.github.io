@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EMSE 4571: Intro to Programming for Analytics",
+    "section": "",
+    "text": "This is the course website for “EMSE 4571: Intro to Programming for Analytics” at the George Washington University. This is the first part of a two-course sequence designed to provide a foundation in programming for data analytics using the R programming language:\n\nCourse 1: EMSE 4571: Intro to Programming for Analytics\nCourse 2: EMSE 4572: Exploratory Data Analysis\n\nChoose from the menu to view the course site for a particular semester or to view the showcase of prior student projects."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This course was inspired by many other courses / resources that cover similar material. In addition to my own developed material, I have also modified material from other courses and workshops - a full list of sources can be found in the LICENSE page.\nThis course was first created by Dr. John Paul Helveston at the George Washington University for the Fall 2019 semester of Intro to Programming for Analytics."
+  }
+]

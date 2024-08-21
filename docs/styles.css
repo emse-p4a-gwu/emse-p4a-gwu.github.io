@@ -1,0 +1,44 @@
+:root {
+  --color-blue: #0190DB;
+  --color-gray: #1A1917;
+  --color-black: #030303;
+}
+
+body {
+  color: #ffffff;
+  background-color: var(--color-gray);
+  font-size: 14pt;
+}
+
+h2 {
+  font-size: 20pt;
+}
+
+a {
+  color: var(--color-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-blue);
+}
+
+.navbar-default {
+  background-color: var(--color-black);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus, .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+  background-color: var(--color-gray);
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: var(--color-blue);
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+  background-color: var(--color-black);
+}
+
+.dropdown-menu>li>a {
+    color: #ffffff;
+}
